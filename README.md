@@ -8,7 +8,7 @@ Not very enthusiastic with this one.
 
 ## Getting Started
 
-To get started with the The Hub Store, follow the instructions below or check the live application [here]().
+To get started with the The Hub Store, follow the instructions below or check the live application [here](https://main--sparkly-taffy-e9b7c6.netlify.app/).
 
 ### Installation
 
