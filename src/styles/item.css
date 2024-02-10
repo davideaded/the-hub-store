@@ -1,0 +1,30 @@
+.itemCard {
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	border: 1px solid green;
+	margin: auto;
+	padding: 10px;
+}
+
+.itemCard img {
+	width: 60px;
+	height: 50px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+
+.quantity > button {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.itemCard > button:focus {
+	background: red;
+}

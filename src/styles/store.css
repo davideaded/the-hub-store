@@ -1,0 +1,44 @@
+.container {
+	margin: auto;
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.cartIcon {
+	width: 100px;
+	height: 100px;
+	background-image: url('../assets/fallout.png');
+	border-radius: 50%;
+	cursor: pointer;
+	background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cartIcon:active {
+	background-color: green;
+}
+
+@media (max-width: 1068px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.miniCart {
+  position: relative;
+  display: inline-block;
+}
+
+.cartItemCount {
+  position: absolute;
+  bottom: 3px;
+  left: 70%;
+  transform: translateX(-50%);
+  background-color: #edba2f;
+	color: black;
+  padding: 8px 15px;
+  border-radius: 50%;
+  font-size: 26px;
+}

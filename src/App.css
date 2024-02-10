@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+body {
+	background-color: #47443b;
+	display: border-box;
+	margin: 0;
+	color: #03fc17;
+	font-family: 'VT323', monospace ;
+}
+
+button {
+	background: #005800;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	min-width: 10px;
+	text-transform: uppercase;
+	
+}
+button:hover {
+	background: #006800;
+}
+
+button:focus {
+	background: #006800;
+}
+
+button:active {
+	background: red;
+}

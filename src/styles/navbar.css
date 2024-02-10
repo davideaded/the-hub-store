@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: #24221e;
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.navbar img {
+  max-width: 100px;
+  height: auto;
+}
+
+.active-link {
+  color: inherit;
+}
+
+.active-link:visited {
+  color: inherit;
+}
+
+.active-link:active {
+  color: red;
+}

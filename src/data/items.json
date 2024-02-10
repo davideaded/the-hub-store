@@ -1,0 +1,38 @@
+[
+	{
+		"id": 0,
+		"name": "knife",
+		"image": "/knife.png",
+		"value": 30
+	},
+	{
+		"id": 1,
+		"name": ".44",
+		"image": "/44.png",
+		"value": 125
+	},
+	{
+		"id": 2,
+		"name": "shotgun",
+		"image": "/shotgun.png",
+		"value": 340
+	},
+	{
+		"id": 3,
+		"name": "combat jacket",
+		"image": "/combatjacket.png",
+		"value": 95
+	},
+	{
+		"id": 4,
+		"name": "power armor",
+		"image": "/powerarmor.png",
+		"value": 520
+	},
+	{
+		"id": 5,
+		"name": "enclave power armor",
+		"image": "/enclavepowerarmor.png",
+		"value": 880
+	}
+]
